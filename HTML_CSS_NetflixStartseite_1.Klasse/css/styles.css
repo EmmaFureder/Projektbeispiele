@@ -1,0 +1,82 @@
+body {
+  background-color: #141414;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#logo img {
+	width: auto;
+	height: 62px;
+	padding-left: 50px;
+}
+
+.profile-grid-header {
+	color: white;
+	font-size: 3.5vw;
+	text-align: center;
+	
+}
+
+.profile-grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 100px;
+}
+
+.profile-grid-item {
+  padding: 20px;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style-type: none;
+	text-align: center;
+}
+nav li a {
+	text-decoration: none;
+	color: grey;
+}
+
+.profile-icon {
+	height: 10vw;
+	width: 10vw;
+	max-height: 200px;
+	max-width: 200px;
+	min-height: 84px;
+	min-width: 84px;
+	margin: 10px;
+	padding: 0px;
+	border-radius: 5px;
+	border: 3px solid transparent;
+}
+
+a:hover img {
+	border-color: #e5e5e5;
+}
+
+.profile-name {
+	color: grey;
+	font-size: 1.3vw;
+}
+a:hover {
+	color: white;
+	border-color: white;
+}
+
+.profile-button-container {
+	display: flex;
+	justify-content: center;
+}
+.profile-button {
+	text-align: center;
+	border: 1px solid grey;
+	color: grey;
+	text-transform: uppercase;
+	padding: .5em 1.5em;
+	letter-spacing: 2px;
+	cursor: pointer;
+	font-size: .9em;
+	margin: auto;
+	text-decoration: none;
+}
